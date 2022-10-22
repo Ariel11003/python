@@ -1,11 +1,9 @@
 import turtle
 turtle.color('yellow')
 turtle.fillcolor('yellow')
+turtle.begin_fill()
 for a in range(5):
-    turtle.begin_fill()
-    turtle.forward(10)
-    turtle.right(180)
-    turtle.end_fill()
+    turtle.forward(100)
+    turtle.right(144)
+turtle.end_fill()
 turtle.done()
-#    
-#    turtle.right(80)
