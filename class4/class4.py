@@ -37,8 +37,10 @@ elif password<=59:
 else:
     print('再見')
 '''
+'''
 password =int(input('請輸入數字'))
 if password %2==0:
     print('偶')
 else:
     print('奇')
+'''
