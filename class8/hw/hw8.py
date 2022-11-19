@@ -5,3 +5,6 @@ while True:
     if x =='e':
         print("再見")
         break
+else:
+    a.append(x)
+    print(a)
