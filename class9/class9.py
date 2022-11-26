@@ -57,11 +57,21 @@ while True:
     else:
         l.append(ans)
         print(l)
-        l.remove('a')
+        
 while True:
     ans=input('del(e=exit):')
     if ans == 'e':
         break
     else:
-        pass
+        while ans in l:
+            l.remove('a')
+    print(l)
 
+k=[]
+for i in l:
+    if i in k:
+        continue
+    else:
+        k.append(i)
+for i in k:
+    print(f'{i}有{l.count(i)}個')
