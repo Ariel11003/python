@@ -24,6 +24,7 @@ while True:
         break
     else:
         print('哈哈哈你打錯了')
+        print('================')
 
 
 
